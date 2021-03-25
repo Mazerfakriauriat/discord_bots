@@ -5,6 +5,9 @@ The purpose of their creation is to prove to friends that I will HACK their Disc
 
 If you know Russian, you can invite them to your server (until I write a program for them to hack)
 
+![па](https://user-images.githubusercontent.com/80709385/112498112-4577f680-8d97-11eb-979f-67f5b3e7b331.jpg)
+
+
 Run through the console. If you open the file, it won't work
 
 ![Снимок](https://user-images.githubusercontent.com/80709385/112494998-8b7f8b00-8d94-11eb-9880-e671d1bce476.PNG)
