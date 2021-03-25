@@ -40,4 +40,4 @@ class MyClient(discord.Client):
 		else:
 			print("user {0} says: '{1}' ID: {2}".format(message.author, message.content,message.author.id))
 client = MyClient()
-client.run('ODI0MjcwNjgwMzQxMjE3MzIx.YFs75A.-1ApOME-FnHYKjNXb7vpoLdbFSM')
+client.run('token')
