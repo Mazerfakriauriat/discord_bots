@@ -5,7 +5,10 @@
 import discord
 import random
 
-dsa = [804395649210646589] #liost of users who tried the bot (I am in it). The list is automatically updated, and if the bot is turned off, I will add your IDs to list.
+dsa = [] #list of users who tried the bot. The list is automatically updated, and if the bot is turned off, I will add your IDs to list.
+
+token = 'your token'
+
 
 def death():
 	date = [str(random.randint(1,28)),str(random.randint(1,12)),str(random.randint(2021, 2117))] #generating death date
@@ -37,7 +40,11 @@ class MyClient(discord.Client):
 			date = death()[0]
 			await message.channel.send("Мои пророки говорят, что ты умрешь {0}. {1}!".format(date, reason)) #bot writes you a random date and reason
 			print("{0} used command '!датасмерти'. date: {1} reason: {2} ID: {3}".format(message.author, date, reason, message.author.id))
+		elif message.author.id == 804395649210646589 and message.content.startswith('!прикройся'): #if user with id entered '!прикройся', bot will close		
+			await message.channel.send("Пока, мой господин!")
+			print("bot {0} closed!".format(self.user))
+			exit()
 		else:
 			print("user {0} says: '{1}' ID: {2}".format(message.author, message.content,message.author.id))
 client = MyClient()
-client.run('token')
+client.run(token)
