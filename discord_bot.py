@@ -1,5 +1,7 @@
 # -*- coding: utf8 -*-
 
+'''!Run through the console!'''
+
 import discord
 import random
 
