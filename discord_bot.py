@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 
-'''!Run through the console!'''
+'''!Run through the console! If you open the file, it won't work'''
 
 import discord
 import random
